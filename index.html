@@ -1,0 +1,94 @@
+<!-- @dsCard group="Pages" -->
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Crumb & Co. Cookie Store</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+
+    <body>
+        <div class="nav-bar">
+            <div class="nav-inner">
+                <div class="logo">🍪 Crumb &amp; Co.</div>
+                <nav>
+                    <a href="#top">Home</a>
+                    <a href="#shop">Shop</a>
+                    <a href="#about">About</a>
+                    <a href="#footer">Contact</a>
+                </nav>
+            </div>
+        </div>
+
+        <header class="site-header" id="top">
+            <div class="hero">
+                <h1>Handmade cookies, baked fresh every morning.</h1>
+                <p class="tagline">Small-batch. Real butter. Zero shortcuts.</p>
+                <a href="#shop" class="hero-cta">Shop the Menu</a>
+            </div>
+
+            <ul class="trust-badges">
+                <li>🧑‍🍳 100% Handmade</li>
+                <li>🚚 Free Delivery over R300</li>
+                <li>🌾 Baked Fresh Daily</li>
+            </ul>
+        </header>
+
+        <main class="shop-layout" id="shop">
+            <section class="products">
+                <h2>Our Cookies</h2>
+                <div id="cookie-grid"></div>
+            </section>
+
+            <aside class="cart-panel">
+                <h2>Your Cart</h2>
+                <div id="cart-items">
+                    <p class="empty-cart">Your cart is empty</p>
+                </div>
+                <div class="cart-summary">
+                    <p id="cart-total">Total: R0.00</p>
+                    <button id="checkout-btn">Checkout</button>
+                </div>
+            </aside>
+        </main>
+
+        <section id="about" class="about">
+            <div class="about-content">
+                <img src="images/chocolate-chip.jpg" alt="Fresh cookies at Crumb & Co." class="about-image">
+                <div class="about-text">
+                    <h2>Our Story</h2>
+                    <p>Crumb &amp; Co. started in 2019 in a small home kitchen, with one mixing bowl and a family chocolate chip recipe passed down three generations.</p>
+                    <p>Every cookie is still shaped, baked, and packed by hand in small batches — no preservatives, no shortcuts. Just real butter, good chocolate, and a lot of taste-testing.</p>
+                </div>
+            </div>
+        </section>
+
+        <footer id="footer">
+            <div class="footer-content">
+                <div class="footer-block">
+                    <h3>🍪 Crumb &amp; Co.</h3>
+                    <p>12 Baker Street, Johannesburg</p>
+                </div>
+                <div class="footer-block">
+                    <h4>Hours</h4>
+                    <p>Mon–Fri: 8am–6pm</p>
+                    <p>Sat–Sun: 9am–4pm</p>
+                </div>
+                <div class="footer-block">
+                    <h4>Get in touch</h4>
+                    <p>hello@crumbandco.co.za</p>
+                    <p>011 234 5678</p>
+                </div>
+            </div>
+            <p class="footer-copyright">&copy; 2026 Crumb &amp; Co. All rights reserved.</p>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+
+</html>
